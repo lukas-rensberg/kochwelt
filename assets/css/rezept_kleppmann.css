@@ -1,3 +1,6 @@
+body {
+    font-family: var(--main-font);
+}
 .main {
   padding: 80px 160px;
 }
@@ -34,14 +37,12 @@ h1 {
 .clock_img {
   width: 14px;
   height: 14px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .stroked {
   margin-top: 50px;
   box-shadow: 0px 1px 3px grey;
   height: 1px;
+  margin-bottom:20px;
 }
 .p_padding {
     padding-top: 30px;
@@ -133,5 +134,28 @@ h1 {
   font-family: var(--main-font);
   line-height: 1.6;
   color: #333;
+}
+.clock_img_container {
+    display:flex;
+    gap: 20px;
+}
+h3 {
+    font-family: var(--headline-font-size);
+    font-size: var(--main-font);
+    padding-top: 20px;
+    padding-bottom:10px;
+}
+.erstellt_container {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile_img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+.name {
+
 }
 
