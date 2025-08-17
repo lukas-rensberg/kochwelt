@@ -21,6 +21,7 @@
 html,
 body {
   height: 100%;
+  font-family: var(--main-font);
 }
 
 body {
@@ -90,4 +91,8 @@ nav a:active {
 .footer a:hover {
   cursor: pointer;
   color: var(--main-color);
+}
+
+main {
+  max-width: 1920px;
 }

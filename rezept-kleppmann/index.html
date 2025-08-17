@@ -59,7 +59,7 @@
         <h2>Zutaten</h2>
         <div class="recipe_portion_container">
           <span>Für</span>
-          <input type="number" id="recipe_portion" value="1" />
+          <input type="number" id="recipe_portion" value="3" min="1" max="20" />
           <button
             id="recipe_portion_button"
             onclick="generateTableWithCalculatedIngredientsCount()"
@@ -100,8 +100,8 @@
       </p>
       <h3>Rezept erstellt von:</h3>
       <div class="erstellt_container">
-      <img class="profile_img" src="/assets/img/profile.png" alt="profile">
-      <span class="name">Lukas Kleppmann</span>
+        <img class="profile_img" src="/assets/img/profile.png" alt="profile" />
+        <span class="name">Lukas Kleppmann</span>
       </div>
     </main>
     <footer class="footer">

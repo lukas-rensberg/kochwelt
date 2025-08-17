@@ -19,7 +19,7 @@ function generateTable(ingredients) {
     const tableRow = document.createElement("tr");
     const tableCell = document.createElement("td");
     if (Array.isArray(ingredient)) {
-      tableCell.textContent = ingredient[0] + " " + ingredient[1];
+      tableCell.textContent = ingredient[0].toFixed(2) + " " + ingredient[1];
     } else {
       tableCell.textContent = ingredient;
     }
@@ -45,7 +45,7 @@ function generateTableWithCalculatedIngredientsCount() {
     
     if (Array.isArray(ingredient)) {
       // Calculate new amount
-      const newAmount = ingredient[0] * recipePortion;
+      const newAmount = (ingredient[0] * recipePortion).toFixed(2);
       tableCell.textContent = newAmount + " " + ingredient[1];
     } else {
       // Non-numeric ingredient (like "Salz und Pfeffer nach Geschmack")
