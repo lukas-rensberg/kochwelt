@@ -1,0 +1,13 @@
+
+.main {
+    padding: 80px 160px;
+}
+h1 {
+    font-family: var(--main-font);
+}
+.recipe_img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}

@@ -66,6 +66,9 @@ nav a:active {
   flex-direction: column;
   color: var(--footer-text-color);
   font-family: var(--main-font);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer a {
