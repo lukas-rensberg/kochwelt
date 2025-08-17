@@ -22,6 +22,10 @@ body {
   object-fit: cover;
   border-radius: 10px;
 }
+.photo_autor {
+  display: flex;
+  justify-content: end;
+}
 h1 {
   font-size: var(--headline-font-size);
   font-family: var(--main-font);
@@ -43,7 +47,6 @@ section {
 }
 .clock_center {
   gap: 5px;
-  margin-top: 15px;
   padding: 5px;
   background-color: #efefef;
   border-radius: 10px;
