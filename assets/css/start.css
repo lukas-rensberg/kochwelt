@@ -37,7 +37,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 40px;
-  margin-right: 200px;
+  margin-right: 180px;
 }
 .recipe_img {
   height: 300px;
@@ -59,7 +59,7 @@ h2 {
   margin-right: 120px;
 }
 .main_course_headline {
-  margin-left: 145px;
+  margin-left: 125px;
   padding-bottom: 40px;
 }
 .main_course_img {
@@ -82,4 +82,10 @@ h2 {
   font-size: 30px;
   text-align: justify;
   margin-left: 120px;
+}
+.dessert_headline {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 40px;
+  margin-right: 120px;
 }
