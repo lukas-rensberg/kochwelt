@@ -23,70 +23,68 @@
         </nav>
       </header>
     </section>
+
     <main class="main">
-      <section class="section_hero">
-        <div class="hero_container">
-          <h1>Mandarinen-Käsekuchen</h1>
-          <div class="recipe_img_container">
+      <div class="hero_container">
+        <h1>Mandarinen-Käsekuchen</h1>
+        <div class="recipe_img_container">
+          <img
+            class="recipe_img"
+            src="/assets/img/mandarinen-kaesekuchen.jpg"
+            alt="Bild von Mandarinen-Käsekuchen"
+          />
+          <p>Foto: Maria Panzer / Einfach Backen</p>
+        </div>
+        <div class="recipe_meta">
+          <div class="meta_item">
             <img
-              class="recipe_img"
-              src="/assets/img/mandarinen-kaesekuchen.jpg"
-              alt="Bild von Mandarinen-Käsekuchen"
+              src="/assets/img/icons/clock-regular.svg"
+              alt="Zeit"
+              class="meta_icon"
             />
-            <p>Foto: Maria Panzer / Einfach Backen</p>
+            <span>30 Min</span>
           </div>
-          <div class="recipe_meta">
-            <div class="meta_item">
-              <img
-                src="/assets/img/icons/clock-regular.svg"
-                alt="Zeit"
-                class="meta_icon"
-              />
-              <span>30 Min</span>
-            </div>
-            <div class="meta_item">
-              <img
-                src="/assets/img/icons/brain-solid.svg"
-                alt="Schwierigkeit"
-                class="meta_icon"
-              />
-              <span>simpel</span>
-            </div>
-            <div class="meta_item">
-              <img
-                src="/assets/img/icons/calendar-alt-regular.svg"
-                alt="Datum"
-                class="meta_icon"
-              />
-              <span>17.08.2025</span>
-            </div>
+          <div class="meta_item">
+            <img
+              src="/assets/img/icons/brain-solid.svg"
+              alt="Schwierigkeit"
+              class="meta_icon"
+            />
+            <span>simpel</span>
           </div>
-          <div class="recipe_ingredients">
-            <h2>Zutaten</h2>
-            <ul>
-              <li>2 große Tomaten</li>
-              <li>1 Salatgurke</li>
-              <li>1 rote Zwiebel</li>
-              <li>200g Feta-Käse</li>
-              <li>100g schwarze Oliven</li>
-              <li>3 EL Olivenöl</li>
-              <li>2 EL Rotweinessig</li>
-              <li>1 TL getrockneter Oregano</li>
-              <li>Salz und Pfeffer nach Geschmack</li>
-            </ul>
-            <h2>Zubereitung</h2>
-            <p>
-              Die Tomaten in Spalten schneiden, die Gurke in dicke Scheiben und
-              die rote Zwiebel in Ringe. Den Feta-Käse in Würfel schneiden. Alle
-              Zutaten in einer großen Schüssel vermischen. Olivenöl,
-              Rotweinessig und Oregano zu einem Dressing verrühren und über den
-              Salat geben. Mit Salz und Pfeffer abschmecken und gut
-              durchmischen. Den Salat 10 Minuten ziehen lassen, bevor er
-              serviert wird.
-            </p>
+          <div class="meta_item">
+            <img
+              src="/assets/img/icons/calendar-alt-regular.svg"
+              alt="Datum"
+              class="meta_icon"
+            />
+            <span>17.08.2025</span>
           </div>
         </div>
-      </section>
+      </div>
+      <div class="recipe_ingredients">
+        <h2>Zutaten</h2>
+        <div class="recipe_portion_container">
+          <span>Für</span>
+          <input type="number" id="recipe_portion" value="1" />
+          <button
+            id="recipe_portion_button"
+            onclick="generateTableWithCalculatedIngredientsCount()"
+          >
+            Kuchen
+          </button>
+        </div>
+        <table></table>
+        <h2>Zubereitung</h2>
+        <p>
+          Die Tomaten in Spalten schneiden, die Gurke in dicke Scheiben und die
+          rote Zwiebel in Ringe. Den Feta-Käse in Würfel schneiden. Alle Zutaten
+          in einer großen Schüssel vermischen. Olivenöl, Rotweinessig und
+          Oregano zu einem Dressing verrühren und über den Salat geben. Mit Salz
+          und Pfeffer abschmecken und gut durchmischen. Den Salat 10 Minuten
+          ziehen lassen, bevor er serviert wird.
+        </p>
+      </div>
     </main>
 
     <footer class="footer">
@@ -100,5 +98,6 @@
       </div>
     </footer>
     <script src="/assets/js/global.js"></script>
+    <script src="/assets/js/rezept_rensberg.js"></script>
   </body>
 </html>

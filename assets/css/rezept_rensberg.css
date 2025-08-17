@@ -3,10 +3,6 @@
   padding: 50px 160px;
   font-family: var(--main-font);
   flex: 1;
-}
-
-/* Hero section */
-.section_hero {
   max-width: 100%;
   margin: 0;
 }
@@ -69,8 +65,80 @@ h2 {
 
 /* Recipe content */
 .recipe_ingredients {
-  background-color: #f9f9f9;
   border-radius: 10px;
+  padding: 20px;
+}
+
+/* Portion calculator */
+.recipe_portion_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 15px 0;
+  font-family: var(--main-font);
+}
+
+.recipe_portion_container span {
+  font-size: var(--main-font-size);
+  font-weight: 500;
+}
+
+#recipe_portion {
+  width: 60px;
+  padding: 5px 8px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  text-align: center;
+}
+
+#recipe_portion:focus {
+  outline: none;
+  border-color: var(--main-color);
+}
+
+#recipe_portion_button {
+  padding: 8px 15px;
+  background-color: var(--main-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#recipe_portion_button:hover {
+  background-color: #026a02;
+}
+
+#recipe_portion_button:active {
+  transform: translateY(1px);
+}
+
+/* Ingredients table */
+.recipe_ingredients table {
+  width: 100%;
+  margin: 15px 0;
+  border-collapse: collapse;
+}
+
+.recipe_ingredients table td {
+  padding: 8px 12px;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  line-height: 1.5;
+  border-radius: 15px;
+}
+
+.recipe_ingredients table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.recipe_ingredients table tr:last-child td {
+  border-bottom: none;
 }
 
 .recipe_ingredients ul {
