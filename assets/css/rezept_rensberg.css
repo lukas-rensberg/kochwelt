@@ -63,12 +63,6 @@ h2 {
   opacity: 0.7;
 }
 
-/* Recipe content */
-.recipe_ingredients {
-  border-radius: 10px;
-  padding: 20px;
-}
-
 /* Portion calculator */
 .recipe_portion_container {
   display: flex;
@@ -133,7 +127,16 @@ h2 {
   border-radius: 15px;
 }
 
-.recipe_ingredients table tr:nth-child(odd) {
+.recipe_ingredients table th {
+  text-align: left;
+  padding: 8px 12px;
+  font-family: var(--main-font);
+  font-size: var(--main-font-size);
+  line-height: 1.5;
+  border-radius: 15px;
+}
+
+.recipe_ingredients table tr:nth-child(even) {
   background-color: #f9f9f9;
 }
 
@@ -158,21 +161,22 @@ h2 {
   color: #333;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .main {
-    padding: 30px 20px;
-  }
+.recipe_author {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
 
-  h1 {
-    font-size: 2rem;
-  }
+.recipe_author_container {
+  display: flex;
+  align-items: center;
+}
 
-  .recipe_img {
-    height: 200px;
-  }
-
-  .recipe_ingredients {
-    padding: 20px;
-  }
+.recipe_author_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
 }
