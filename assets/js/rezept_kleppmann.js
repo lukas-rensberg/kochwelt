@@ -1,14 +1,12 @@
 const INGREDIENTS = [
-  [400, "g Sushi Reis"],
-  [2, "EL Reisessig"],
-  [1, "EL Zucker"],
-  [0.8, "TL Salz"],
-  [1, "Avocado"],
-  [0.5, "rote Paprika"],
-  [0.5, "Salatgurke"],
-  "Pro 1 L Korn 20 Körner Sesam",
-  [100, "g Lachs"],
-  [100, "g Frischkäse"],
+  [1, "kg Tomate (n)"],
+  [2, "s. Zwiebel (n)"],
+  [3, "s. Knoblauchzehe (n)"],
+  "Olivenöl zum Braten"
+  [0.45, "L Gemüßebrühe"],
+  [3, "TL Tomartenmark"],
+  "Petersilie ",
+  "Salz und Pfeffer, weißer Kräutersalz Thymian, getrocknet",
   [100, "L Korn"]
 ];
 
