@@ -17,7 +17,7 @@
         />
 
         <nav class="nav">
-          <a href="#">Start</a>
+          <a href="/">Start</a>
           <a href="/rezept-des-tages/">Rezept des Tages</a>
           <a href="/kontakt/">Kontakt</a>
         </nav>
@@ -55,54 +55,66 @@
         </div>
       </section>
       <div class="stroked"></div>
-      <div class="recipe_ingredients">
-        <h2>Zutaten</h2>
-        <div class="recipe_portion_container">
-          <span>Für</span>
-          <input type="number" id="recipe_portion" value="3" min="1" max="20" />
-          <button
-            id="recipe_portion_button"
-            onclick="generateTableWithCalculatedIngredientsCount()"
-          >
-            Portion
-          </button>
+      <section>
+        <div class="recipe_ingredients">
+          <h2>Zutaten</h2>
+          <div class="recipe_portion_container">
+            <span>Für</span>
+            <input
+              type="number"
+              id="recipe_portion"
+              value="3"
+              min="1"
+              max="20"
+            />
+            <button
+              id="recipe_portion_button"
+              onclick="generateTableWithCalculatedIngredientsCount()"
+            >
+              Portion
+            </button>
+          </div>
+          <table></table>
         </div>
-        <table></table>
-      </div>
-      <h2>Zubereitung</h2>
-      <div class="clock_img_container">
-        <div class="clock_center">
+        <h2>Zubereitung</h2>
+        <div class="clock_img_container">
+          <div class="clock_center">
+            <img
+              class="clock_img"
+              src="/assets/img/icons/clock-regular.svg"
+              alt="Clock"
+            />
+            <span>ca. 15 Minuten</span>
+          </div>
+          <div class="clock_center">
+            <img
+              class="clock_img"
+              src="/assets/img/icons/clock-regular.svg"
+              alt="Clock"
+            />
+            <span>Gesamtzeit ca. 15 Minuten</span>
+          </div>
+        </div>
+        <p class="p_padding">
+          Sushi-Reis gründlich waschen, kurz einweichen und im Topf oder
+          Reiskocher garen. Mit einer Mischung aus Reisessig, Zucker und Salz
+          vermengen und auf Zimmertemperatur abkühlen lassen. Gemüse und Fisch
+          in feine Streifen schneiden, die Sushimatte mit Frischhaltefolie
+          umwickeln. Für Maki Nori halbieren, Reis darauf verteilen, etwas frei
+          lassen, Zutaten einlegen und rollen. Für Inside-Out Reis auf Nori
+          verteilen, mit Sesam bestreuen, umdrehen, belegen und rollen. Rollen
+          in Stücke schneiden und mit Sojasauce, Wasabi und Ingwer servieren.
+        </p>
+        <h3>Rezept erstellt von:</h3>
+        <div class="erstellt_container">
           <img
-            class="clock_img"
-            src="/assets/img/icons/clock-regular.svg"
-            alt="Clock"
+            class="profile_img"
+            src="/assets/img/profile.png"
+            alt="profile"
           />
-          <span>ca. 15 Minuten</span>
+          <span class="name">Lukas Kleppmann</span>
         </div>
-        <div class="clock_center">
-          <img
-            class="clock_img"
-            src="/assets/img/icons/clock-regular.svg"
-            alt="Clock"
-          />
-          <span>Gesamtzeit ca. 15 Minuten</span>
-        </div>
-      </div>
-      <p class="p_padding">
-        Sushi-Reis gründlich waschen, kurz einweichen und im Topf oder
-        Reiskocher garen. Mit einer Mischung aus Reisessig, Zucker und Salz
-        vermengen und auf Zimmertemperatur abkühlen lassen. Gemüse und Fisch in
-        feine Streifen schneiden, die Sushimatte mit Frischhaltefolie umwickeln.
-        Für Maki Nori halbieren, Reis darauf verteilen, etwas frei lassen,
-        Zutaten einlegen und rollen. Für Inside-Out Reis auf Nori verteilen, mit
-        Sesam bestreuen, umdrehen, belegen und rollen. Rollen in Stücke
-        schneiden und mit Sojasauce, Wasabi und Ingwer servieren.
-      </p>
-      <h3>Rezept erstellt von:</h3>
-      <div class="erstellt_container">
-        <img class="profile_img" src="/assets/img/profile.png" alt="profile" />
-        <span class="name">Lukas Kleppmann</span>
-      </div>
+      </section>
     </main>
     <footer class="footer">
       <span
