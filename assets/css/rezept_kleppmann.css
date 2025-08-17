@@ -1,13 +1,38 @@
-
 .main {
-    padding: 80px 160px;
-}
-h1 {
-    font-family: var(--main-font);
+  padding: 80px 160px;
 }
 .recipe_img {
-    height: 250px;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 10px;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+h1 {
+  font-size: var(--headline-font-size);
+}
+
+.font-raleway {
+  font-size: var(--main-font-size);
+  font-family: var(--main-font);
+}
+.small_symbols {
+  display: flex;
+  gap:10px;
+}
+.clock_center {
+  gap: 5px;
+  margin-top: 15px;
+  padding: 5px;
+  background-color: #efefef;
+  border-radius: 10px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock_img {
+  width: 14px;
+  height: 14px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
