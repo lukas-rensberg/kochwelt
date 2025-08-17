@@ -16,6 +16,16 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
 .section_nav {
   display: flex;
 }
@@ -58,17 +68,16 @@ nav a:active {
 
 .footer {
   background-color: var(--footer-color);
-  height: 300px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding-bottom: 80px;
   flex-direction: column;
   color: var(--footer-text-color);
   font-family: var(--main-font);
-  position: absolute;
-  bottom: 0;
+  padding-bottom: 80px;
   width: 100%;
+  margin-top: auto;
 }
 
 .footer a {
