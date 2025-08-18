@@ -49,44 +49,27 @@
     </section>
 </div>
 </aside>
-
-    <div class="rechner">
-        <span>Zutaten für</span>
-        <input type="number" min="1">
-        <button onclick="">Portionen</button>
-    </div>
-    
-    <table class="table">
-        <tr>
-        <td class="gray">600g Schweinefilet</td>
-        </tr>
-        <tr>
-        <td class="white">2 dl Saucenhalbrahm</td>
-        </tr>
-        <tr>
-        <td class="gray">8 Specktranchen</td> 
-        </tr>
-        <tr>
-        <td class="white">1 EL Tomatenpüree</td> 
-        </tr>
-        <tr>
-        <td class="gray">1 TL Paprikapulver</td> 
-        </tr>
-        <tr>
-        <td class="white">250g Champignons</td> 
-        </tr>
-        <tr>
-        <td class="gray">Bratbutter</td>
-        </tr>
-        <tr>
-        <td class="white">Salz</td>
-        </tr>
-        <tr>
-        <td class="gray">Pfeffer</td>
-        </tr>
-    </table>
-    
-
+<section>
+        <div class="recipe_ingredients">
+<h2>Zutaten</h2>
+          <div class="recipe_portion_container">
+            <span>Für</span>
+            <input
+              type="number"
+              id="recipe_portion"
+              value="4"
+              min="1"
+              max="20"
+            />
+            <button
+              id="recipe_portion_button"
+              onclick="generateTableWithCalculatedIngredientsCount()"
+            >
+              Portion
+            </button>
+          </div>
+          <table></table>
+        </div>
     <h3>Zubereitung</h3>
     <aside class="info1">
         <section class="clock_zeit">
