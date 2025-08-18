@@ -131,8 +131,8 @@ h2 {
   }
   .appetizer_span {
     font-size: 23px;
-    height: 220px;
-    padding: 0px 0px;
+    height: 250px;
+    padding: 20px 20px;
   }
   .main_course_span {
     font-size: 23px;
@@ -143,8 +143,6 @@ h2 {
   }
 }
 @media (max-width: 1569px) {
-  .appetizer_span {
-  }
   .main_course_span {
     font-size: 23px;
   }
@@ -186,5 +184,5 @@ h2 {
     justify-content: center;
   }
 }
-@media (max-width: 767px) {
+@media (max-width: 719px) {
 }
