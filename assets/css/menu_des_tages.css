@@ -124,10 +124,29 @@ h2 {
   height: 400px;
 }
 
-@media(max-width: 1601px) {
-.appetizer_img_container {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
-  padding-bottom: 120px;
+@media (max-width: 1668px) {
+  .recipe_img {
+    height: 300px;
+    width: 500px;
+  }
+  .appetizer_span {
+    font-size: 28px;
+  }
+  .main_course_span {
+    font-size: 28px;
+  }
+}
+@media (max-width: 1569px) {
+  .recipe_img {
+    height: 300px;
+    width: 500px;
+  }
+  .appetizer_span {
+    font-size: 30px;
+    padding: 0px 0px;
+    height: 330px;
+  }
+  .main_course_span {
+    font-size: 30px;
+  }
 }
