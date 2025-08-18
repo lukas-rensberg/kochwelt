@@ -4,10 +4,10 @@ const INGREDIENTS = [
   [8, "scheiben. Specktranchen (n)"],
   "Olivenöl zum Braten"
   [0.45, "L Gemüßebrühe"],
-  [3, "TL Tomartenmark"],
-  "Petersilie ",
-  "Salz und Pfeffer, weißer Kräutersalz Thymian, getrocknet",
-  [100, "L Korn"]
+  [1.5, "EL Tomartenmark"],
+  [250, "g Champigons"],
+  "Salz, Pfeffer und Paprika",
+  
 ];
 
 function generateTable(ingredients) {
