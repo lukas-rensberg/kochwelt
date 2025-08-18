@@ -87,6 +87,7 @@ span{
 .bild{
    height: 400px;
     width: 80%;
+    object-fit: cover;
 }
 .center{
      display: flex;
