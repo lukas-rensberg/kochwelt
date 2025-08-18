@@ -126,27 +126,65 @@ h2 {
 
 @media (max-width: 1668px) {
   .recipe_img {
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 250px;
   }
   .appetizer_span {
-    font-size: 28px;
+    font-size: 23px;
+    height: 220px;
+    padding: 0px 0px;
   }
   .main_course_span {
-    font-size: 28px;
+    font-size: 23px;
+  }
+  .main_course_img {
+    height: 200px;
+    width: 250px;
   }
 }
 @media (max-width: 1569px) {
-  .recipe_img {
-    height: 300px;
-    width: 500px;
-  }
   .appetizer_span {
-    font-size: 30px;
-    padding: 0px 0px;
-    height: 330px;
   }
   .main_course_span {
-    font-size: 30px;
+    font-size: 23px;
   }
+}
+@media (max-width: 1155px) {
+  .appetizer_img_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .appetizer_span {
+    margin-right: 70px;
+  }
+  .appetizer_headline {
+    margin-right: 0px;
+    justify-content: center;
+  }
+  .recipe_img {
+    margin-right: 0px;
+  }
+  .main_course_headline {
+    margin-left: 0px;
+    justify-content: center;
+    display: flex;
+  }
+  .main_course_container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .main_course_img {
+    margin-left: 0px;
+  }
+  .main_course_span {
+    margin-left: 70px;
+  }
+  .dessert_headline {
+    margin-right: 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
 }
