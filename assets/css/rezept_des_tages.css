@@ -1,3 +1,7 @@
+body {
+  background-color: #fdf4f4;
+  width: 100%;
+}
 .gang_container {
   padding-top: 60px;
 }
@@ -21,7 +25,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 40px;
-  margin-right: 180px;
+  margin-right: 185px;
 }
 .appetizer_headline a {
   text-decoration: none;
@@ -50,7 +54,7 @@ h2 {
   margin-right: 120px;
 }
 .main_course_headline {
-  margin-left: 125px;
+  margin-left: 150px;
   padding-bottom: 40px;
 }
 .main_course_headline a {
@@ -85,7 +89,7 @@ h2 {
   display: flex;
   justify-content: flex-end;
   padding-bottom: 40px;
-  margin-right: 120px;
+  margin-right: 160px;
 }
 .dessert_headline a {
   text-decoration: none;
