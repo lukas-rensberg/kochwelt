@@ -273,14 +273,46 @@ li {
   line-height: 1.6;
   color: #333;
 }
+@media (max-width: 660px){
+  .info1{
+    flex-direction: column;
+  }
+  .clock_zeit{
+    font-size: 16px;
+  }
+  .clock_zeit img{
+  height: 16px;
+  width: 16px;
+}
+.clock_zeit1 img{
+  height: 16px;
+  width: 16px;
+}
+}
 @media (max-width: 630px) {
   h1 {
     font-size: 32px;
+  }
+  .bild{
+    height: 300px;
   }
 }
 
 @media (max-width: 510px) {
   h1 {
     word-break: keep-all;
+  }
+  .main{
+    padding: 0;
+  }
+}
+@media (max-width: 495px){
+  .bild{
+    height: 250px;
+  }
+}
+@media (max-width: 410px){
+  .bild{
+    height: 180px;
   }
 }
