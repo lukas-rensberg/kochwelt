@@ -275,7 +275,7 @@ li {
 }
 @media (max-width: 660px){
   .info1{
-    flex-direction: column;
+   
   }
   .clock_zeit{
     font-size: 16px;
@@ -287,6 +287,9 @@ li {
 .clock_zeit1 img{
   height: 16px;
   width: 16px;
+}
+span{
+  font-size: 15px;
 }
 }
 @media (max-width: 630px) {
