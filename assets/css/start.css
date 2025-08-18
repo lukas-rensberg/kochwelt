@@ -6,3 +6,10 @@
   width: 100%;
   background-image: url(/assets/img/Kochwelt.jpg);
 }
+h1 {
+  padding-top: 266px;
+  font-size: 100px;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
