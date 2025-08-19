@@ -67,6 +67,7 @@ section {
 }
 .p_padding {
   padding-top: 30px;
+  text-align: justify;
 }
 /* Portion calculator */
 .recipe_portion_container {
@@ -175,4 +176,21 @@ h3 {
   height: 50px;
   width: 50px;
   border-radius: 50px;
+}
+
+@media (max-width: 683px) {
+  .main {
+    padding: 50px 16px;
+  }
+  .photo_autor {
+    font-size: 12px;
+  }
+}
+@media (max-width: 334px) {
+  h1 {
+    font-size: 35px;
+  }
+  .small_symbols {
+    gap: 8px;
+  }
 }
