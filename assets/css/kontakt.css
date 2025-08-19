@@ -58,6 +58,14 @@
   margin-top: 160px;
 }
 
+.send_button {
+  background: var(--main-color);
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
 @media (max-width: 410px) {
   .contact_form {
     width: 300px;
