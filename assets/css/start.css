@@ -6,12 +6,16 @@
   width: 100%;
   background-image: url(/assets/img/Kochwelt.jpg);
 }
+.headline-container {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
 h1 {
   padding-top: 266px;
   font-size: 100px;
   color: white;
   display: flex;
-  justify-content: center;
 }
 .subheadline {
   font-size: 50px;
@@ -19,7 +23,12 @@ h1 {
   text-decoration: none;
 }
 .button {
-  text-decoration: none;
+  border-radius: 150px;
+  background-color: transparent;
+  width: 40%;
+}
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.5);
 }
 a:hover {
   color: #403b3b;
