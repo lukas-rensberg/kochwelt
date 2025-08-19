@@ -14,7 +14,6 @@
 .hero_container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
   max-width: 1920px;
   width: 100%;
 }
@@ -23,7 +22,6 @@
 h1 {
   font-family: var(--main-font);
   font-size: 2.5rem;
-  margin-bottom: 20px;
 }
 
 h2 {
@@ -197,4 +195,35 @@ h2 {
   box-shadow: 0px 1px 3px grey;
   height: 1px;
   margin-bottom: 20px;
+}
+@media (max-width: 815px) {
+  h1 {
+    font-size: 35px;
+  }
+}
+@media (max-width: 755px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 696px) {
+  h1 {
+    font-size: 25px;
+  }
+  .main {
+    padding: 50px 16px;
+  }
+}
+@media (max-width: 360px) {
+  .recipe_meta {
+    display: block;
+  }
+  .meta_item {
+  }
+}
+
+@media (max-width: 348px) {
+  h1 {
+    font-size: 22px;
+  }
 }
