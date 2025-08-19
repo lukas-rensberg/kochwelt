@@ -28,13 +28,39 @@ a:hover {
     font-size: 40px;
   }
 }
+@media (max-width: 1080px) {
+  .main-container {
+    padding: 50px 16px;
+  }
+}
+@media (max-width: 608px) {
+  font-size: 30px;
+}
+@media (max-width: 795px) {
+  .subheadline {
+    font-size: 25px;
+  }
+}
 @media (max-width: 575px) {
   h1 {
     font-size: 60px;
   }
 }
+@media (max-width: 515px) {
+  .subheadline {
+    font-size: 20px;
+  }
+}
+@media (max-width: 423px) {
+  .subheadline {
+    font-size: 16px;
+  }
+}
 @media (max-width: 360px) {
   h1 {
     font-size: 50px;
+  }
+  .subheadline {
+    font-size: 14px;
   }
 }
