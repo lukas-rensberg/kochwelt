@@ -184,5 +184,149 @@ h2 {
     justify-content: center;
   }
 }
-@media (max-width: 719px) {
+@media (max-width: 718px) {
+  .appetizer_span {
+    font-size: 20px;
+  }
+  .main_course_span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 614px) {
+  .appetizer_span {
+    font-size: 18px;
+  }
+  .main_course_span {
+    font-size: 18px;
+  }
+}
+@media (max-width: 514px) {
+  .appetizer_span {
+    font-size: 16px;
+  }
+  .main_course_span {
+    font-size: 16px;
+  }
+}
+@media (max-width: 454px) {
+  .appetizer_span {
+    font-size: 23px;
+    height: 543px;
+    padding: 20px 20px;
+  }
+  .main_course_span {
+    font-size: 23px;
+    height: 400;
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 440px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 281px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 300px;
+  }
+}
+@media (max-width: 427px) {
+  h2 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 420px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 320px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 320px;
+  }
+}
+@media (max-width: 408px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 320px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 340px;
+  }
+}
+@media (max-width: 394px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 370px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 370px;
+  }
+}
+@media (max-width: 376px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 390px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 390px;
+  }
+}
+@media (max-width: 363px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 410px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 410px;
+  }
+}
+@media (max-width: 355px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 460px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 460px;
+  }
+}
+@media (max-width: 350px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 480px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 480px;
+  }
+}
+@media (max-width: 340px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 600px;
+  }
+  h2 {
+    font-size: 35px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 500px;
+    padding: 10px 10px;
+  }
+}
+@media (max-width: 320px) {
+  .appetizer_span {
+    font-size: 16px;
+    height: 600px;
+  }
+  .main_course_span {
+    font-size: 16px;
+    height: 500px;
+    padding: 10px 10px;
+  }
 }
