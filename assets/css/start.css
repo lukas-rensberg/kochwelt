@@ -17,11 +17,13 @@ h1 {
   font-size: 50px;
   color: white;
   text-decoration: none;
-  display: flex;
-  justify-content: center;
+}
+.button {
+  text-decoration: none;
 }
 a:hover {
   color: #403b3b;
+  text-decoration: none;
 }
 @media (max-width: 1269px) {
   .subheadline {

@@ -81,7 +81,7 @@ nav a:active {
   flex-direction: column;
   color: var(--footer-text-color);
   font-family: var(--main-font);
-  padding: 80px;
+  padding: 80px 10px;
   width: 100%;
   margin-top: auto;
   font-size: 25px;
@@ -98,4 +98,30 @@ nav a:active {
 }
 
 @media (max-width: 768px) {
+  .footer {
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .header {
+    padding-right: 24px;
+  }
+
+  .header_img {
+    padding-left: 24px;
+  }
+
+  .nav {
+    gap: 16px;
+  }
+}
+
+@media (max-width: 650px) {
+  .hide_on_mobile {
+    display: none;
+  }
+
+  .hide_on_desktop {
+    display: flex;
+  }
 }
