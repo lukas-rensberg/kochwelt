@@ -13,3 +13,28 @@ h1 {
   display: flex;
   justify-content: center;
 }
+.subheadline {
+  font-size: 50px;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+a:hover {
+  color: #403b3b;
+}
+@media (max-width: 1269px) {
+  .subheadline {
+    font-size: 40px;
+  }
+}
+@media (max-width: 575px) {
+  h1 {
+    font-size: 60px;
+  }
+}
+@media (max-width: 360px) {
+  h1 {
+    font-size: 50px;
+  }
+}
