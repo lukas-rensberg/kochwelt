@@ -33,9 +33,6 @@ a:hover {
     padding: 50px 16px;
   }
 }
-@media (max-width: 608px) {
-  font-size: 30px;
-}
 @media (max-width: 795px) {
   .subheadline {
     font-size: 25px;
