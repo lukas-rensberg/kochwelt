@@ -147,7 +147,7 @@ nav a:hover {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
   .header {
     padding-right: 24px;
   }

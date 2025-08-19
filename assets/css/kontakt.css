@@ -57,3 +57,9 @@
 .send_mail {
   margin-top: 160px;
 }
+
+@media (max-width: 410px) {
+  .contact_form {
+    width: 300px;
+  }
+}
