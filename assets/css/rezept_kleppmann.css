@@ -2,6 +2,11 @@ body {
   font-family: var(--main-font);
 }
 
+main section,
+main div {
+  max-width: 1920px;
+}
+
 .main {
   padding: 50px 160px;
   font-family: var(--main-font);

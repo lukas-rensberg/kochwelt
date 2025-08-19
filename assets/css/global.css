@@ -95,3 +95,6 @@ nav a:active {
   cursor: pointer;
   color: var(--main-color);
 }
+
+@media (max-width: 768px) {
+}
