@@ -25,7 +25,7 @@
         </nav>
 
         <nav class="nav hide_on_desktop">
-          <button class="burger-menu">
+          <button onclick="toggleMobileNavigation()" class="burger-menu">
             <img
               src="/assets/img/icons/burger-menu.svg"
               alt="Mobile Navigation Menu öffnen"
@@ -33,6 +33,12 @@
           </button>
         </nav>
       </header>
+      
+      <nav id="mobile-navigation" class="mobile-nav">
+        <a href="/index.html">Start</a>
+        <a class="active_page" href="/menu-des-tages/">Menu des Tages</a>
+        <a href="/kontakt/">Kontakt</a>
+      </nav>
     </section>
     <main class="main">
       <h1>Schweinefilet-Medaillons</h1>
