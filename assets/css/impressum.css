@@ -11,3 +11,15 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+@media (max-width: 768px) {
+  main {
+    padding: 50px 80px;
+  }
+}
+
+@media (max-width: 520px) {
+  main {
+    padding: 50px 8px;
+  }
+}
