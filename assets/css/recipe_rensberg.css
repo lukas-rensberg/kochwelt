@@ -1,6 +1,6 @@
 /* Main content container */
 .main {
-  padding: 50px 160px;
+  padding: 50px 200px;
   font-family: var(--main-font);
   flex: 1;
   width: 100%;
@@ -196,11 +196,35 @@ h2 {
   height: 1px;
   margin-bottom: 20px;
 }
+
+@media (min-width: 1920px) {
+  .main {
+    padding: 50px 0px;
+  }
+
+  .header_img {
+    padding: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+  .main {
+    padding: 50px 100px;
+  }
+}
+
 @media (max-width: 815px) {
   h1 {
     font-size: 35px;
   }
 }
+
+@media (max-width: 780px) {
+  .main {
+    padding: 50px 24px;
+  }
+}
+
 @media (max-width: 755px) {
   h1 {
     font-size: 30px;
