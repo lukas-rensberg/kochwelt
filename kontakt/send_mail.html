@@ -41,34 +41,14 @@
       </nav>
     </section>
     <main>
-      <form onsubmit="sendMail(event)" class="contact_form">
-        <div class="contact_form_headline">Kontaktiere uns</div>
-        <label class="form-text" for="name">Dein Name:</label>
-        <input
-          class="contact_form_input"
-          id="name"
-          name="name"
-          type="text"
-          required=""
-        />
-        <label class="form-text" for="email">Deine E-Mail:</label>
-        <input
-          class="contact_form_input"
-          id="email"
-          name="email"
-          type="email"
-          required=""
-        />
-        <label class="form-text" for="message">Deine Nachricht:</label>
-        <textarea
-          class="contact_form_input contact_form_input_message"
-          name="message"
-          id="message"
-          type="text"
-          required=""
-        ></textarea>
-        <button id="buttonkontakt" class="send_button">Abschicken</button>
-      </form>
+      <div class="mail_sent_container">
+        <h1>Mail gesendet</h1>
+        <p>
+          Deine Nachricht wurde erfolgreich gesendet. Wir werden uns
+          schnellstmöglich um deine Anfrage kümmern.
+        </p>
+        <a href="/kontakt/">Zurück zur Kontaktseite</a>
+      </div>
     </main>
     <footer class="footer">
       <span
@@ -81,6 +61,5 @@
       </div>
     </footer>
     <script src="/assets/js/global.js"></script>
-    <script src="/assets/js/kontakt.js"></script>
   </body>
 </html>
