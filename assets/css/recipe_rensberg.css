@@ -214,9 +214,16 @@ h2 {
     padding: 50px 16px;
   }
 }
-@media (max-width: 360px) {
+
+@media (max-width: 500px) {
   .recipe_meta {
-    display: block;
+    flex-direction: column;
+  }
+  .recipe_meta span {
+    width: 100%;
+  }
+  .recipe_meta .meta_item span {
+    width: 100%;
   }
 }
 
