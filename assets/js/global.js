@@ -23,11 +23,11 @@ function openRecipeOfTheDay() {
 
 function getRandomRecipe() {
     const randomNumber = Math.random();
-    if (randomNumber < 0.5) {
+    if (randomNumber < 0.33) {
         return "/rezept-rensberg/";
-    } else if (randomNumber > 0.5 && randomNumber < 0.8) {
-        return "/Rezept-Keil/";
-    } else {
+    } else if (randomNumber < 0.66) {
         return "/rezept-kleppmann/";
+    } else {
+        return "/Rezept-Keil/";
     }
 }
