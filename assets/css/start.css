@@ -90,7 +90,7 @@
 }
 
 .recipe-card:hover {
-  transform: translateY(-5px);
+  transform: rotate(90deg);
 }
 
 .recipe-card a {
