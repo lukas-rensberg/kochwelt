@@ -88,7 +88,7 @@
         <h2>Zutaten</h2>
         <div class="recipe_portion_container">
           <span>Für</span>
-          <input type="number" id="recipe_portion" value="1" />
+          <input type="number" id="recipe_portion" value="1" min="1" max="20" />
           <button
             id="recipe_portion_button"
             onclick="generateTableWithCalculatedIngredientsCount()"
