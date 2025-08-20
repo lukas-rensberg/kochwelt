@@ -9,14 +9,13 @@
 /* Hero Section */
 .hero-section {
   padding: 60px 200px;
-  background-color: #f8f9fa;
+  max-width: 1920px;
 }
 
 .hero-content {
   display: flex;
   align-items: center;
   gap: 60px;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -67,9 +66,10 @@
 
 /* Recipe Cards Section */
 .recipe-cards-section {
-  padding: 80px 200px;
+  padding: 80px;
   background-color: #f0f0f0;
   text-align: center;
+  width: 100%;
 }
 
 .recipe-cards-section h2 {
@@ -81,10 +81,9 @@
 
 .recipe-cards {
   display: flex;
-  gap: 40px;
+  gap: 150px;
   justify-content: center;
   flex-wrap: wrap;
-  max-width: 1000px;
   margin: 0 auto;
 }
 
@@ -120,16 +119,16 @@
 
 /* Comparison Section */
 .comparison-section {
-  padding: 80px 20px;
   background-color: white;
 }
 
 .comparison-content {
   display: flex;
+  padding: 60px 200px;
   align-items: center;
   gap: 60px;
-  max-width: 1200px;
   margin: 0 auto;
+  max-width: 1920px;
 }
 
 .comparison-text {
@@ -159,7 +158,48 @@
   object-fit: cover;
   border-radius: 10px;
 }
-
+@media (max-width: 1545px) {
+  .recipe-cards {
+    gap: 100px;
+  }
+}
+@media (max-width: 1440px) {
+  .recipe-cards {
+    gap: 50px;
+  }
+}
+@media (max-width: 1340px) {
+  .recipe-card {
+    width: 20%;
+  }
+}
+@media(max-width:1200px){
+  .comparison-image img {
+  width: 250px;
+  height: 250px;
+}
+@media (max-width: 1010px) {
+  .hero-section{
+    padding: 60px 100px;
+  }
+  .hero-image img {
+    width: 300px;
+    height: 300px;
+  }
+  .comparison-content{
+    flex-direction: column;
+  }
+  .comparison-image img {
+    width: 200px;
+    height: 200px;
+  }
+}
+@media(max-width:850px){
+  hero-image img {
+      width: 265px;
+      height: 265px;
+    }
+}
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
   .hero-content {
@@ -196,13 +236,16 @@
     width: 100%;
     max-width: 350px;
   }
+  .comparison-content {
+    padding: 0px 0px;
+  }
 }
 
 @media (max-width: 480px) {
   .hero-section,
   .recipe-cards-section,
   .comparison-section {
-    padding: 40px 15px;
+    padding: 40px 0px;
   }
 
   .hero-text h1 {
