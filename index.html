@@ -20,7 +20,7 @@
 
         <nav class="nav hide_on_mobile">
           <a class="active_page" href="/index.html">Start</a>
-          <a href="/menu-des-tages/">Menu des Tages</a>
+          <a href="/rezept-rensberg/">Rezept des Tages</a>
           <a href="/kontakt/">Kontakt</a>
         </nav>
 
@@ -36,19 +36,84 @@
 
       <nav id="mobile-navigation" class="mobile-nav">
         <a class="active_page" href="/index.html">Start</a>
-        <a href="/menu-des-tages/">Menu des Tages</a>
+        <a onclick="openRecipeOfTheDay()">Rezept des Tages</a>
         <a href="/kontakt/">Kontakt</a>
       </nav>
     </section>
     <main class="main-container">
-      <div class="headline-container">
-        <h1>KOCHWELT</h1>
-        <button class="button">
-          <a class="subheadline" href="/menu-des-tages/"
-            >Hier geht es zu Unserem Menu des Tages</a
-          >
-        </button>
-      </div>
+      <!-- Hero Section: Französische Croissants -->
+      <section class="hero-section">
+        <div class="hero-content">
+          <div class="hero-image">
+            <img
+              src="/assets/img/mandarinen-kaesekuchen.jpg"
+              alt="Mandarinen-Käsekuchen"
+            />
+          </div>
+          <div class="hero-text">
+            <h1>Mandarinen-Käsekuchen</h1>
+            <p>
+              Dieser saftige Mandarinenkuchen vereint lockeren Rührteig mit
+              fruchtigen Mandarinenstücken und einer feinen Cremeschicht. Die
+              Kombination aus leichter Süße und frischer Fruchtigkeit macht ihn
+              zu einem herrlich luftigen Dessert – perfekt als krönender
+              Abschluss eines Menüs oder einfach zum Kaffee.
+            </p>
+            <a href="/rezept-rensberg/">
+              <button class="recipe-button">Rezept öffnen</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Recipe Cards Section -->
+      <section class="recipe-cards-section">
+        <h2>Lust auf was Neues?</h2>
+        <div class="recipe-cards">
+          <div class="recipe-card">
+            <a href="/rezept-rensberg/">
+              <img
+                src="/assets/img/mandarinen-kaesekuchen.jpg"
+                alt="Frische Croissants"
+              />
+              <h3>Mandarinen-Käsekuchen</h3>
+            </a>
+          </div>
+          <div class="recipe-card">
+            <a href="/Rezept-Keil/">
+              <img
+                src="/assets/img/Schweinemedaillons1.png"
+                alt="Schweinefilet-Medaillons"
+              />
+              <h3>Schweinefilet-Medaillons</h3>
+            </a>
+          </div>
+          <div class="recipe-card">
+            <a href="/rezept-kleppmann/">
+              <img src="/assets/img/tomato_soup.jpg" alt="Tomaten Suppe" />
+              <h3>Tomaten Suppe</h3>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Comparison Section -->
+      <section class="comparison-section">
+        <div class="comparison-content">
+          <div class="comparison-text">
+            <h2>Kochen nach Gefühl oder striktes Rezept?</h2>
+            <p>
+              Kochen nach Gefühl oder striktes Rezept? Diese Frage lässt sich
+              nicht pauschal beantworten. Während ein striktes Rezept die
+              Sicherheit und Wiederholbarkeit bietet, ermöglicht kochen nach
+              Gefühl die Kreativität und individuelle Gestaltung.
+            </p>
+          </div>
+          <div class="comparison-image">
+            <img src="/assets/img/sushi.jpg" alt="Cooking comparison" />
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
