@@ -12,14 +12,49 @@ main {
   flex-direction: column;
 }
 
+@media (max-width: 1060px) {
+  main {
+    padding: 50px 100px;
+  }
+}
 @media (max-width: 768px) {
   main {
     padding: 50px 80px;
   }
 }
-
+@media (max-width: 850px) {
+  main {
+    padding: 50px 80px;
+  }
+}
+@media (max-width: 830px) {
+  main {
+    padding: 50px 24px;
+  }
+}
+@media (max-width: 679px) {
+  h2 {
+    font-size: 20px;
+  }
+}
 @media (max-width: 520px) {
   main {
     padding: 50px 8px;
+  }
+}
+@media (max-width: 1060px) {
+  h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 405px) {
+  h1 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 337px) {
+  h1 {
+    font-size: 25px;
   }
 }
