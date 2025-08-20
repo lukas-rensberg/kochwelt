@@ -135,8 +135,10 @@ h3 {
   margin: 0;
   padding-left: 5px;
 }
+
 li {
   margin-top: 8px;
+  margin-left: 16px;
 }
 
 .table {
@@ -166,14 +168,14 @@ li {
   width: 80%;
 }
 .main {
-  padding: 50px 80px;
+  padding: 50px 200px;
   font-family: var(--main-font);
   flex: 1;
   width: 100%;
   align-items: center;
   justify-content: center;
   margin: 0;
-
+  font-size: var(--main-font-size);
   flex-direction: column;
   max-width: 1920px;
 }
@@ -285,11 +287,29 @@ li {
   border-radius: 50%;
   margin-right: 10px;
 }
+
+@media (max-width: 1060px) {
+  .main {
+    padding: 50px 100px;
+  }
+}
+
 @media (max-width: 850px) {
   h1 {
     font-size: 30px;
   }
+
+  .main {
+    padding: 50px 80px;
+  }
 }
+
+@media (max-width: 810px) {
+  .main {
+    padding: 50px 24px;
+  }
+}
+
 @media (max-width: 660px) {
   .clock_zeit {
     font-size: 16px;
@@ -321,7 +341,7 @@ li {
 }
 @media (max-width: 510px) {
   .main {
-    padding: 0;
+    padding: 25px 8px;
   }
 }
 @media (max-width: 495px) {

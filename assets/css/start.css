@@ -173,20 +173,21 @@
     width: 20%;
   }
 }
-@media(max-width:1200px){
+@media (max-width: 1200px) {
   .comparison-image img {
-  width: 250px;
-  height: 250px;
+    width: 250px;
+    height: 250px;
+  }
 }
 @media (max-width: 1010px) {
-  .hero-section{
-    padding: 60px 100px;
+  .hero-section {
+    padding: 60px 80px;
   }
   .hero-image img {
     width: 300px;
     height: 300px;
   }
-  .comparison-content{
+  .comparison-content {
     flex-direction: column;
   }
   .comparison-image img {
@@ -194,12 +195,19 @@
     height: 200px;
   }
 }
-@media(max-width:850px){
+@media (max-width: 850px) {
   hero-image img {
-      width: 265px;
-      height: 265px;
-    }
+    width: 265px;
+    height: 265px;
+  }
 }
+
+@media (max-width: 830px) {
+  .hero-section {
+    padding: 60px 24px;
+  }
+}
+
 /* Mobile Responsive Design */
 @media (max-width: 768px) {
   .hero-content {
@@ -213,6 +221,11 @@
 
   .hero-text p {
     font-size: 16px;
+  }
+
+  .hero-text a {
+    display: flex;
+    flex-direction: column;
   }
 
   .comparison-content {
@@ -245,11 +258,11 @@
   .hero-section,
   .recipe-cards-section,
   .comparison-section {
-    padding: 40px 0px;
+    padding: 40px 8px;
   }
 
   .hero-text h1 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   .hero-text p {
@@ -262,5 +275,12 @@
 
   .recipe-cards-section h2 {
     font-size: 24px;
+  }
+}
+
+@media (max-width: 340px) {
+  .hero-image img {
+    width: 100%;
+    height: auto;
   }
 }

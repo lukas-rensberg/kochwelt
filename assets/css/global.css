@@ -126,7 +126,7 @@ nav a:hover {
   color: var(--main-color);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1060px) {
   .header {
     padding-right: 100px;
   }
@@ -140,7 +140,7 @@ nav a:hover {
   }
 }
 
-@media (max-width: 840px) {
+@media (max-width: 850px) {
   .header {
     padding-right: 80px;
   }
@@ -150,7 +150,7 @@ nav a:hover {
   }
 }
 
-@media (max-width: 780px) {
+@media (max-width: 830px) {
   .header {
     padding-right: 24px;
   }
@@ -164,7 +164,7 @@ nav a:hover {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 670px) {
   .hide_on_mobile {
     display: none;
   }

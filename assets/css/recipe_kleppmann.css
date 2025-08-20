@@ -8,7 +8,7 @@ main div {
 }
 
 .main {
-  padding: 50px 160px;
+  padding: 50px 200px;
   font-family: var(--main-font);
   flex: 1;
   width: 100%;
