@@ -1,12 +1,11 @@
 const INGREDIENTS = [
-  [600, "g Schweinefilet (n)"],
-  [2, "dl. Saucenhalbrahmen (n)"],
-  [8, "scheiben. Specktranchen (n)"],
-  "Olivenöl zum Braten",
-  [0.45, "L Gemüßebrühe"],
-  [1.5, "EL Tomartenmark"],
-  [250, "g Champigons"],
-  "Salz, Pfeffer und Paprika",
+  [150, "g Schweinefilet (n)"],
+  [0.5, "dl. Saucenhalbrahmen (n)"],
+  [2, "scheiben. Specktranchen (n)"],
+  [0.38, "EL Tomartenmark"],
+  [62.5, "g Champigons"],
+  "Bratbutter",
+  "Salz, Pfeffer und Paprikapulver",
 ];
 
 function generateTable(ingredients) {
