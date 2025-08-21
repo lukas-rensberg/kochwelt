@@ -19,6 +19,7 @@
   border-color: #dcdcdc;
   border-radius: 6px;
   height: 24px;
+  padding: 10px;
   margin-bottom: 24px;
   border-width: 0px;
 }
@@ -73,6 +74,11 @@
   justify-content: center;
   max-width: 1920px;
   width: 100%;
+  padding: 10px;
+}
+
+.main_sent_mail {
+  text-align: center;
 }
 
 @media (max-width: 410px) {
